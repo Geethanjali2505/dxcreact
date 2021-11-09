@@ -25,7 +25,7 @@ constructor(props) {
     render() {
         return (
             <div>
-                <ChildComponent praneshwarHandler = {this.greetParent}/>   {/*i am passing the reference of greet parent method to the child via a props*/}
+                <ChildComponent geethanjaliHandler = {this.greetParent}/>   {/*i am passing the reference of greet parent method to the child via a props*/}
             </div>
         )
     }
