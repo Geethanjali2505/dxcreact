@@ -16,35 +16,14 @@ import styles from './appStyles.module.css'
 import Form from './components/Form';
 import Fragments from './components/Fragments';
  
+import NewTable from './components/NewTable';
+
+
 function App() {
   return (
     <div className="App">
-      <Form/>
-      <Fragments/>
-    <h1 className = {styles.success}>success</h1>
-    <h1 className = 'error'>error</h1>
-      <Inline/>
-      <Stylesheet  enabled = {true}/>
-       <NameList/>
-       <ClassClick/>
-    <FunctionClick/>
-       <Counter/>
-       <ParentComponent/>
-       <UserGreeting/>
-       
-    <Message/>
-    
-    <Greet name = "virat"  college = "IIT">
-      <p> this is children property</p>
-    </Greet>
+    <NewTable/>
 
-    <Greet name = "kohli" college = "Oxford">
-      <button>click me</button>
-    </Greet>
-    <Greet />
-
-    <Welcome name ="virat" alias = "kohli"/>
-    <EventBind/>
     </div>
   );
 }
