@@ -1,9 +1,9 @@
 import './App.css';
-import ClassCounter from './components/hooks/ClassCounter';
-import HookCounter from './components/hooks/HookCounter';
-import HookCounter2 from './components/hooks/HookCounter2';
-import HookCounter3 from './components/hooks/HookCounter3';
-
+import ClassCounter1 from './components/hooks/useeffect/ClassCounter1';
+import ClassMouse from './components/hooks/useeffect/ClassMouse';
+import CounterHook1 from './components/hooks/useeffect/CounterHook1';
+import HookMouse from './components/hooks/useeffect/HookMouse';
+import MouseContainer from './components/hooks/useeffect/MouseContainer';
 
 
 
@@ -12,10 +12,7 @@ import HookCounter3 from './components/hooks/HookCounter3';
 function App() {
   return (
     <div className="App">
-    <HookCounter/>
-    <HookCounter2/>
-    <HookCounter3/>
-    
+      <MouseContainer />
     </div>
   );
 }
