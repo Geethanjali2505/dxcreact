@@ -33,4 +33,4 @@ componentDidMount(){
     }
 }
 
-export default ClassMouse
+export default ClassMoused
